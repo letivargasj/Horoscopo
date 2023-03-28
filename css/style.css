@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.menu{
+    width: 100%;
+    height: 15%;
+    background-color: #211C56;
+    color:rgb(255, 240, 242);
+    display: inline-flex;
+    text-align: start;
+    padding-left: 50px;
+    
+}
+
+.contenedor {
+    width: 100%;
+    height: 85%;
+    background-color: #000127;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+a {
+    width: 18%;
+    height: 100%;
+    text-decoration: none;
+    font-family: khand;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.logoImg{
+    width: 40px;
+}
